@@ -4,3 +4,9 @@ C:\Users\mgado\Desktop\ComprasyCxP\AreaComprasyCxP\CapaModeloCompras\obj\Debug\C
 C:\Users\mgado\Desktop\ComprasyCxP\AreaComprasyCxP\CapaModeloCompras\obj\Debug\CapaModeloCompras.csproj.CoreCompileInputs.cache
 C:\Users\mgado\Desktop\ComprasyCxP\AreaComprasyCxP\CapaModeloCompras\obj\Debug\CapaModeloCompras.dll
 C:\Users\mgado\Desktop\ComprasyCxP\AreaComprasyCxP\CapaModeloCompras\obj\Debug\CapaModeloCompras.pdb
+D:\N\PrototipoEF\PrototipoEF\CapaModeloCompras\bin\Debug\CapaModeloCompras.dll
+D:\N\PrototipoEF\PrototipoEF\CapaModeloCompras\bin\Debug\CapaModeloCompras.pdb
+D:\N\PrototipoEF\PrototipoEF\CapaModeloCompras\obj\Debug\CapaModeloCompras.csproj.AssemblyReference.cache
+D:\N\PrototipoEF\PrototipoEF\CapaModeloCompras\obj\Debug\CapaModeloCompras.csproj.CoreCompileInputs.cache
+D:\N\PrototipoEF\PrototipoEF\CapaModeloCompras\obj\Debug\CapaModeloCompras.dll
+D:\N\PrototipoEF\PrototipoEF\CapaModeloCompras\obj\Debug\CapaModeloCompras.pdb
