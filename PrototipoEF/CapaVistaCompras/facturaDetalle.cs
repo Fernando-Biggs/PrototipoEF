@@ -68,5 +68,10 @@ namespace CapaVistaCompras
             dataGridView1.DataSource = dt;
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            reportesFacturaD frm = new reportesFacturaD();
+            frm.Show();
+        }
     }
 }

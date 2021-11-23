@@ -93,16 +93,40 @@
       <DependentUpon>frmVentas.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReporFD.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporFD.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteFE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteFE.Designer.cs">
+      <DependentUpon>ReporteFE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reportesFacturaD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportesFacturaD.Designer.cs">
+      <DependentUpon>reportesFacturaD.cs</DependentUpon>
+    </Compile>
     <Compile Include="reportesVentas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="reportesVentas.Designer.cs">
       <DependentUpon>reportesVentas.cs</DependentUpon>
     </Compile>
-    <Compile Include="ReporteVentas.cs">
+    <Compile Include="ReportFEnca.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ReporteVentas.rpt</DependentUpon>
+      <DependentUpon>ReportFEnca.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportVentas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportVentas.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
@@ -122,12 +146,26 @@
     <EmbeddedResource Include="frmVentas.resx">
       <DependentUpon>frmVentas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ReporFD.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporFD.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteFE.resx">
+      <DependentUpon>ReporteFE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportesFacturaD.resx">
+      <DependentUpon>reportesFacturaD.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="reportesVentas.resx">
       <DependentUpon>reportesVentas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ReporteVentas.rpt">
+    <EmbeddedResource Include="ReportFEnca.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>ReporteVentas.cs</LastGenOutput>
+      <LastGenOutput>ReportFEnca.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportVentas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportVentas.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

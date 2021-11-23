@@ -1,7 +1,7 @@
 ﻿
 namespace CapaVistaCompras
 {
-    partial class reportesVentas
+    partial class reportesFacturaD
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace CapaVistaCompras
         private void InitializeComponent()
         {
             this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
-            this.ReportVentas1 = new CapaVistaCompras.ReportVentas();
+            this.ReporFD1 = new CapaVistaCompras.ReporFD();
             this.SuspendLayout();
             // 
             // crystalReportViewer1
@@ -41,18 +41,18 @@ namespace CapaVistaCompras
             this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.crystalReportViewer1.Location = new System.Drawing.Point(0, 0);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
-            this.crystalReportViewer1.ReportSource = this.ReportVentas1;
+            this.crystalReportViewer1.ReportSource = this.ReporFD1;
             this.crystalReportViewer1.Size = new System.Drawing.Size(800, 450);
             this.crystalReportViewer1.TabIndex = 0;
             // 
-            // reportesVentas
+            // reportesFacturaD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.crystalReportViewer1);
-            this.Name = "reportesVentas";
-            this.Text = "reportesVentas";
+            this.Name = "reportesFacturaD";
+            this.Text = "reportesFacturaD";
             this.ResumeLayout(false);
 
         }
@@ -60,6 +60,6 @@ namespace CapaVistaCompras
         #endregion
 
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
-        private ReportVentas ReportVentas1;
+        private ReporFD ReporFD1;
     }
 }

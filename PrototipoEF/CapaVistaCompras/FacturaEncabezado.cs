@@ -102,5 +102,11 @@ namespace CapaVistaCompras
             DataTable dt = log.actualizar3();
             dgvV.DataSource = dt;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ReporteFE fm = new ReporteFE();
+            fm.Show();
+        }
     }
 }
