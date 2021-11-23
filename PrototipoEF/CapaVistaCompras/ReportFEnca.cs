@@ -16,14 +16,14 @@ namespace CapaVistaCompras {
     using CrystalDecisions.CrystalReports.Engine;
     
     
-    public class ReporteVentas : ReportClass {
+    public class ReportFEnca : ReportClass {
         
-        public ReporteVentas() {
+        public ReportFEnca() {
         }
         
         public override string ResourceName {
             get {
-                return "ReporteVentas.rpt";
+                return "ReportFEnca.rpt";
             }
             set {
                 // Do nothing
@@ -41,7 +41,7 @@ namespace CapaVistaCompras {
         
         public override string FullResourceName {
             get {
-                return "CapaVistaCompras.ReporteVentas.rpt";
+                return "CapaVistaCompras.ReportFEnca.rpt";
             }
             set {
                 // Do nothing
@@ -90,9 +90,9 @@ namespace CapaVistaCompras {
     }
     
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
-    public class CachedReporteVentas : Component, ICachedReport {
+    public class CachedReportFEnca : Component, ICachedReport {
         
-        public CachedReporteVentas() {
+        public CachedReportFEnca() {
         }
         
         [Browsable(false)]
@@ -129,7 +129,7 @@ namespace CapaVistaCompras {
         }
         
         public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() {
-            ReporteVentas rpt = new ReporteVentas();
+            ReportFEnca rpt = new ReportFEnca();
             rpt.Site = this.Site;
             return rpt;
         }

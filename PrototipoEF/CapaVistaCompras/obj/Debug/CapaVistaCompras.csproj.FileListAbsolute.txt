@@ -218,3 +218,5 @@ D:\N\PrototipoEF\PrototipoEF\CapaVistaCompras\obj\Debug\CapaVistaCompras.Factura
 D:\N\PrototipoEF\PrototipoEF\CapaVistaCompras\obj\Debug\CapaVistaCompras.facturaDetalle.resources
 D:\N\PrototipoEF\PrototipoEF\CapaVistaCompras\obj\Debug\CapaVistaCompras.AYUDAS.resources
 D:\N\PrototipoEF\PrototipoEF\CapaVistaCompras\obj\Debug\CapaVistaCompras.reportesVentas.resources
+D:\N\PrototipoEF\PrototipoEF\CapaVistaCompras\obj\Debug\CapaVistaCompras.reportesFacturaD.resources
+D:\N\PrototipoEF\PrototipoEF\CapaVistaCompras\obj\Debug\CapaVistaCompras.ReporteFE.resources
