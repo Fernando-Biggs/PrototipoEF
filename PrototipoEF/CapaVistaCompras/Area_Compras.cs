@@ -76,5 +76,33 @@ namespace CapaVistaCompras
             frmMIDSeguridad formulario = new frmMIDSeguridad();
             formulario.Show();
         }
+
+        private void ventasToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmVentas frm = new frmVentas();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void ventasEncabezadoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FacturaEncabezado frm = new FacturaEncabezado();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void ventasDetalleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            facturaDetalle frm = new facturaDetalle();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void aYUDASToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AYUDAS form = new AYUDAS();
+            form.MdiParent = this;
+            form.Show();
+        }
     }
 }

@@ -41,15 +41,16 @@ namespace CapaVistaCompras
             this.consultasInteligentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ventasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ventasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ventasEncabezadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ventasDetalleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mantenimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.txtusuario = new System.Windows.Forms.TextBox();
             this.bodegaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tipoDePagoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ventasEncabezadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ventasDetalleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.txtusuario = new System.Windows.Forms.TextBox();
+            this.aYUDASToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,7 +60,8 @@ namespace CapaVistaCompras
             this.archivoToolStripMenuItem,
             this.seguridadToolStripMenuItem,
             this.ventasToolStripMenuItem,
-            this.mantenimientoToolStripMenuItem});
+            this.mantenimientoToolStripMenuItem,
+            this.aYUDASToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(632, 24);
@@ -133,8 +135,23 @@ namespace CapaVistaCompras
             // ventasToolStripMenuItem1
             // 
             this.ventasToolStripMenuItem1.Name = "ventasToolStripMenuItem1";
-            this.ventasToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.ventasToolStripMenuItem1.Size = new System.Drawing.Size(174, 22);
             this.ventasToolStripMenuItem1.Text = "Ventas";
+            this.ventasToolStripMenuItem1.Click += new System.EventHandler(this.ventasToolStripMenuItem1_Click);
+            // 
+            // ventasEncabezadoToolStripMenuItem
+            // 
+            this.ventasEncabezadoToolStripMenuItem.Name = "ventasEncabezadoToolStripMenuItem";
+            this.ventasEncabezadoToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.ventasEncabezadoToolStripMenuItem.Text = "Ventas Encabezado";
+            this.ventasEncabezadoToolStripMenuItem.Click += new System.EventHandler(this.ventasEncabezadoToolStripMenuItem_Click);
+            // 
+            // ventasDetalleToolStripMenuItem
+            // 
+            this.ventasDetalleToolStripMenuItem.Name = "ventasDetalleToolStripMenuItem";
+            this.ventasDetalleToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.ventasDetalleToolStripMenuItem.Text = "Ventas Detalle";
+            this.ventasDetalleToolStripMenuItem.Click += new System.EventHandler(this.ventasDetalleToolStripMenuItem_Click);
             // 
             // mantenimientoToolStripMenuItem
             // 
@@ -147,6 +164,30 @@ namespace CapaVistaCompras
             this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
             this.mantenimientoToolStripMenuItem.Text = "Mantenimiento";
             // 
+            // bodegaToolStripMenuItem
+            // 
+            this.bodegaToolStripMenuItem.Name = "bodegaToolStripMenuItem";
+            this.bodegaToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.bodegaToolStripMenuItem.Text = "Bodega";
+            // 
+            // productosToolStripMenuItem
+            // 
+            this.productosToolStripMenuItem.Name = "productosToolStripMenuItem";
+            this.productosToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.productosToolStripMenuItem.Text = "Productos";
+            // 
+            // clientesToolStripMenuItem
+            // 
+            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.clientesToolStripMenuItem.Text = "Clientes";
+            // 
+            // tipoDePagoToolStripMenuItem
+            // 
+            this.tipoDePagoToolStripMenuItem.Name = "tipoDePagoToolStripMenuItem";
+            this.tipoDePagoToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.tipoDePagoToolStripMenuItem.Text = "Tipo de Pago";
+            // 
             // txtusuario
             // 
             this.txtusuario.Enabled = false;
@@ -156,41 +197,12 @@ namespace CapaVistaCompras
             this.txtusuario.Size = new System.Drawing.Size(100, 20);
             this.txtusuario.TabIndex = 2;
             // 
-            // bodegaToolStripMenuItem
+            // aYUDASToolStripMenuItem
             // 
-            this.bodegaToolStripMenuItem.Name = "bodegaToolStripMenuItem";
-            this.bodegaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.bodegaToolStripMenuItem.Text = "Bodega";
-            // 
-            // productosToolStripMenuItem
-            // 
-            this.productosToolStripMenuItem.Name = "productosToolStripMenuItem";
-            this.productosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.productosToolStripMenuItem.Text = "Productos";
-            // 
-            // clientesToolStripMenuItem
-            // 
-            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.clientesToolStripMenuItem.Text = "Clientes";
-            // 
-            // tipoDePagoToolStripMenuItem
-            // 
-            this.tipoDePagoToolStripMenuItem.Name = "tipoDePagoToolStripMenuItem";
-            this.tipoDePagoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.tipoDePagoToolStripMenuItem.Text = "Tipo de Pago";
-            // 
-            // ventasEncabezadoToolStripMenuItem
-            // 
-            this.ventasEncabezadoToolStripMenuItem.Name = "ventasEncabezadoToolStripMenuItem";
-            this.ventasEncabezadoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ventasEncabezadoToolStripMenuItem.Text = "Ventas Encabezado";
-            // 
-            // ventasDetalleToolStripMenuItem
-            // 
-            this.ventasDetalleToolStripMenuItem.Name = "ventasDetalleToolStripMenuItem";
-            this.ventasDetalleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ventasDetalleToolStripMenuItem.Text = "Ventas Detalle";
+            this.aYUDASToolStripMenuItem.Name = "aYUDASToolStripMenuItem";
+            this.aYUDASToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
+            this.aYUDASToolStripMenuItem.Text = "AYUDAS";
+            this.aYUDASToolStripMenuItem.Click += new System.EventHandler(this.aYUDASToolStripMenuItem_Click);
             // 
             // MDI_Prototipo_EF
             // 
@@ -235,6 +247,7 @@ namespace CapaVistaCompras
         private System.Windows.Forms.ToolStripMenuItem tipoDePagoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ventasEncabezadoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ventasDetalleToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aYUDASToolStripMenuItem;
     }
 }
 
